@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weniveLogin</title>
+</head>
+<style>
+    .login{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 350px;
+        height: 140px;
+        border-radius: 5px;
+        border: 1px solid #DBDBDB;
+    }
+    .login p, .login_button, .options {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .login p {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .login_button {
+        width: 318px;
+        height: 40px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #711BFF;
+        color: white;
+        font-size: 12px;
+    }
+    .find_id_pw, .join{
+        text-decoration-line: none;
+        color: #767676;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .weniv_logo{
+        width: 64px;
+    }
+    .icon{
+        width: 16px;
+    }
+    img{
+        vertical-align: bottom;
+    }
+
+</style>
+<body>
+<section class="login">
+    <p>더 편리해진 위니브에 오신 것을 환영합니다.</p>
+    <button class="login_button">
+        <img src="weniv-logo.png" class="weniv_logo">로그인
+    </button>
+    <section class="options">
+        <div class="login_option">
+            <img src="icon-lock.png" class="icon">
+            <a href="#" class="find_id_pw">아이디 | 비밀번호</a>
+        </div>
+        <div class="login_option">
+            <a href="#" class="join">회원가입</a>
+        </div>
+    </section>
+</section>
+</body>
+</html>
